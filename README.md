@@ -8,9 +8,16 @@ The focus is on agents that do real work reliably — clear scope, explicit proc
 
 ```
 skills/     Claude Code / Claude agent skills (SKILL.md + supporting files)
+doc/        Reference docs and style guides
 ```
 
 More directories will land as the collection grows (prompt patterns, reference docs, evaluation notes).
+
+## Docs
+
+| Doc | What it covers |
+| --- | --- |
+| [`python_best_practices.md`](doc/python_best_practices.md) | Style guide for Python snippets embedded in skills — `pathlib` over `os.path`, explicit encoding, LBYL over try/except, idempotency, and other conventions for scaffolding scripts and inline heredocs. |
 
 ## Skills
 
