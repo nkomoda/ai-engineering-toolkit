@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:getdbt.com)",
+      "WebFetch(domain:roundup.getdbt.com)",
+      "WebFetch(domain:hex.tech)",
+      "WebFetch(domain:snowflake.com)",
+      "WebFetch(domain:databricks.com)",
+      "WebFetch(domain:fivetran.com)",
+      "WebFetch(domain:airbyte.com)",
+      "WebFetch(domain:montecarlodata.com)",
+      "WebFetch(domain:metaplane.dev)",
+      "WebFetch(domain:atlan.com)",
+      "WebFetch(domain:secoda.co)",
+      "WebFetch(domain:elementary-data.com)",
+      "WebFetch(domain:mode.com)",
+      "WebFetch(domain:sigmacomputing.com)",
+      "WebFetch(domain:getcensus.com)",
+      "WebFetch(domain:omni.co)",
+      "WebFetch(domain:anthropic.com)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:locallyoptimistic.com)",
+      "WebFetch(domain:open-semantic-interchange.org)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:iceberg.apache.org)",
+      "WebFetch(domain:dremio.com)",
+      "WebFetch(domain:starburst.io)",
+      "WebFetch(domain:dataengineeringpodcast.com)",
+      "WebFetch(domain:analyticshour.io)",
+      "WebFetch(domain:datastackshow.com)",
+      "WebFetch(domain:drilltodetail.com)",
+      "WebFetch(domain:data.world)"
+    ]
+  }
+}
