@@ -32,9 +32,18 @@ BI / analytics / activation:
 
 AI / applied engineering (for AI-in-analytics angle):
 - Anthropic — https://www.anthropic.com/news and https://www.anthropic.com/engineering
+- Claude — https://claude.com/blog — includes applied case studies at the intersection of Claude/AI and data analytics (e.g. "How Anthropic enables self-service data analytics with Claude"); prioritize posts in that vein over general product announcements
 
 Community/opinion (include if relevant posts found):
 - Locally Optimistic — https://locallyoptimistic.com
+
+Semantic layer / open standards:
+- Apache Ossie (formerly Open Semantic Interchange / OSI — a vendor-neutral semantic layer spec backed by Snowflake, dbt Labs, Salesforce, and others, now under the ASF) — official site https://open-semantic-interchange.org/ and release/discussion activity at https://github.com/apache/ossie/releases and https://github.com/apache/ossie/discussions. This is a spec repo, not a blog — check releases and discussions for what's new rather than expecting dated articles. dbt Labs' blog also regularly covers OSI/Ossie developments (e.g. https://www.getdbt.com/blog/the-osi-spec-updates), so cross-check there too.
+
+Apache Iceberg — elementary/introductory (for someone learning table formats, not deep internals):
+- Apache Iceberg official blog — https://iceberg.apache.org/blogs/
+- Dremio — https://www.dremio.com/blog — consistently strong beginner-friendly Iceberg explainers and tutorials
+- Starburst — https://www.starburst.io/blog/
 
 Signal source (check every run — often the fastest way to find what's actually worth reading):
 - dbt Labs' "Analytics Engineering Roundup" newsletter/podcast — https://roundup.getdbt.com — a biweekly-ish roundtable (Tristan Handy + guests) that discusses and links the AI/data posts the community is actually talking about that week. Treat posts it highlights as strong candidates for the top 3 even if you wouldn't have surfaced them from the source blogs alone — search for the latest issue (e.g. `roundup.getdbt.com analytics engineering roundup <month> <year>`) and check what it references.
@@ -70,6 +79,9 @@ Podcast URLs drift and shows go on hiatus — if a link doesn't resolve or has n
    - **Influence without authority**: setting technical direction, org design for data teams, aligning stakeholders, driving standards across teams, mentoring.
    Deprioritize beginner explainers, tool tutorials, and vendor-pitch episodes where the guest is mainly demoing a product.
 8. Aim for a mix rather than three variations on one theme — e.g. one architecture/technical-depth episode and one on influence/organizational scope beats three on modeling patterns.
+9. Two source categories run outside the staff-level top-3 ranking, since they serve a different goal (tracking a standard, and personal learning) rather than competing on staff-level substance — report them in their own output sections instead of folding them into "Top 3" or "Also Worth a Look":
+   - **Apache Ossie**: check GitHub releases/discussions (not just search) for spec changes, new adopters, or notable proposals in the window. If nothing changed, say so in one line.
+   - **Apache Iceberg basics**: pick 1-2 genuinely introductory pieces (explains a core concept — snapshots, schema evolution, partitioning, catalogs — clearly for someone new to table formats) from the elementary/introductory source list. Beginner-appropriate is the selection criterion here, not staff-level depth — don't apply the top-3 lens to these.
 
 ## Link validation (required — do this before writing any output)
 
@@ -107,6 +119,15 @@ Every URL in the output must be one you actually fetched and confirmed lands on 
 1. **[Episode title](url)** — Show, date, ~runtime
    Staff-level angle: 1-2 sentences on the specific scope, judgment, or influence lesson — what it teaches that a senior-level version of you wouldn't already know.
 
+2. ...
+
+## Apache Ossie Watch
+- [What changed](url) — date — one-line summary
+  (or: "No notable release/discussion activity this window.")
+
+## Learning: Apache Iceberg Basics
+1. **[Title](url)** — Source, date
+   Concept covered: 1 sentence on what it teaches (e.g. "explains how snapshot isolation works").
 2. ...
 ```
 
